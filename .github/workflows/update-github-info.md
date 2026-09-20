@@ -17,6 +17,7 @@ network:
   allowed:
     - github.com
     - github.blog
+    - awesome-copilot.github.com
 ---
 
 # Update Mona's GitHub Info website
@@ -27,10 +28,13 @@ Use these sources:
 - `notes/mona-notes.md`
 - GitHub Blog: https://github.blog/latest/
 - GitHub Changelog: https://github.blog/changelog/
+- Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
 
 Read external public guidance with the `web-fetch` tool. Read repository guidance
 or reference files with GitHub repository API tools instead of terminal, CLI, or
 sandboxed commands.
+
+Use the `web-fetch` tool to read https://awesome-copilot.github.com/workflows/.
 
 Update `site/content/github-info.md` with concise, practical updates for readers
 and include source context when content comes from the GitHub Blog or GitHub
