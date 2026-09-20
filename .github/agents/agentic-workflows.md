@@ -15,6 +15,8 @@ If `.github/aw/instructions.md` exists, load it with:
 
 Precedence: repository overlay instructions override defaults in this agent when they conflict.
 
+When creating or editing agentic workflow files, do not compile them. Only create or update the markdown workflow file.
+
 ## What This Agent Does
 
 This is a **dispatcher agent** that routes your request to the appropriate specialized prompt based on your task:
